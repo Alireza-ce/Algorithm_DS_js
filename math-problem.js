@@ -34,3 +34,13 @@ function isPowerOfTow(number) {
 // isPowerOfTow ==> O(logN)
 // console.log(isPowerOfTow(10)); ==> false
 // console.log(isPowerOfTow(8)); ==> true
+
+function factorial(number){
+    if(number == 1){
+        return 1
+    }
+
+    return number * factorial(number-1);
+}
+// factorial ==> O(n)
+// console.log(factorial(5)); ==> 120
